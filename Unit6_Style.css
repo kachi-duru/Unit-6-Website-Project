@@ -2,7 +2,7 @@
 img {max-width: 100%; height: auto; }
 
 body{
-    margin: 10px;
+    margin: 0px;
     background-color: rgb(5, 83, 139);
 }
 
@@ -13,9 +13,9 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 120px;
-    height: 120px;
-    flex: 0 0 120px;
+    width: 220px;
+    height: 220px;
+    flex: 0 0 220px;
 }
 
 
@@ -81,6 +81,10 @@ body{
         }
 
 
+.HeaderRow,
+.topnav{
+    width: 100;
+}
 
 .columnLeft,
 .columnCentre,
